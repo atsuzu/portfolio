@@ -11,10 +11,11 @@
 // about supported directives.
 //
 
-//= require jquery
+
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
+//= require jquery
 //= require contact_me
 //= require jqBootstrapValidation
 //= require_tree .
