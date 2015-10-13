@@ -11,9 +11,9 @@
  * file per style scope.
  *
 
- *= require bootstrap.css
+ *= require bootstrap
  *= require bootstrap.min
- *= require modern-business.css
+ *= require modern-business
  *= require_tree .
  *= require_self
  */
