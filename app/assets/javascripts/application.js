@@ -11,11 +11,11 @@
 // about supported directives.
 //
 
+//= require jquery.js
 //= require bootstrap.js
 //= require bootstrap.min.js
 //= require contact_me.js
 //= require jqBootstrapValidation.js
-//= require jquery.js
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
