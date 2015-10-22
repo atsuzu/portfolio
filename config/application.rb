@@ -24,6 +24,9 @@ module Portfolio
     config.active_record.raise_in_transactional_callbacks = true
 
     config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
-    config.assets.precompile += %w( .svg .eot .woff .ttf )
+    config.assets.precompile += ["fontawesome-webfont.ttf",
+                             "fontawesome-webfont.eot",
+                             "fontawesome-webfont.svg",
+                             "fontawesome-webfont.woff"]
   end
 end
