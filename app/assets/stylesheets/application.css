@@ -11,6 +11,9 @@
  * file per style scope.
  *
 
+  @import "font-awesome-sprockets";
+  @import "font-awesome";
+
  *= require bootstrap
  *= require modern-business
  *= require_tree .
