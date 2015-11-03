@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
-  resources :projects
 
   root 'pages#welcome'
+
+  resources :projects
 
   get 'about' => 'pages#about'
   get 'index' => 'pages#index'
