@@ -44,7 +44,7 @@
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
-                    <li class="active">Portfolio Item</li>
+                    <li class="active"><%= @project.title %></li>
                 </ol>
             </div>
         </div>
@@ -87,14 +87,9 @@
 
             <div class="col-md-4">
                 <h3>Project Description</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
-                </ul>
+                <p><%= @project.description %></p>
+                <h3>Skills Used:</h3>
+                <p><%= @project.skills %></p>
             </div>
 
         </div>
