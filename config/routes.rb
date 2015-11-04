@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :pages
 
   get 'about' => 'pages#about'
-  get 'index' => 'pages#index'
+
   get 'welcome' => 'pages#welcome'
 
   # The priority is based upon order of creation: first created -> highest priority.
